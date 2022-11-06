@@ -2,13 +2,19 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 body {
     background-color: lightgoldenrodyellow ;
 }
 
 .avatar {
-    position: fixed;
+    position: absolute;
+
 }
-h2 {
-    text-align: center;
+
+p {
+    padding-left: 310px;
 }
