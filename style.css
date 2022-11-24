@@ -2,40 +2,35 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-}
-
-body {
-    background-color: white ;
-}
-
 .avatar {
     position: absolute;
-
 }
 
-p {
+.mainInfo {
     padding-left: 310px;
 }
 
 html, body {
     height: 100%;
-
+    margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 section {
-    min-height: 100%;
-    height: auto;
-    height: 100%;
-    margin: 0 auto -4em;
+    flex: 1 0 auto;
 }
+
 ul {
-    display: inline-flexbox;
+    list-style-type: none;
 }
 
 .footer {
+    display: flex;
+    justify-content: space-around;
     color: white;
-    padding: 30px;
     background-color: black;
+    flex-shrink: 0;
 }
