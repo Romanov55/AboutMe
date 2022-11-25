@@ -34,3 +34,11 @@ ul {
     background-color: black;
     flex-shrink: 0;
 }
+
+a:hover {
+    color: red;
+}
+
+.link:hover {
+    color: white;
+}
