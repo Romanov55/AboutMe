@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 section {
     flex: 1 0 auto;
 }
