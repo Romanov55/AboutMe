@@ -31,8 +31,8 @@ html, body {
 
 .purpose {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: initial;
+    justify-content: space-around;
+
     text-align: center
 }
 
@@ -56,6 +56,11 @@ a:hover {
 
 .link:hover {
     color: red;
+}
+
+.fa-solid {
+    font-size: 50px;
+    color: green;
 }
 
 .fa {
