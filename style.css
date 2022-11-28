@@ -1,13 +1,32 @@
-h1 {
-    text-align: center;
+header {
+    background-image: url('img-head.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 25%;
+    height: 170px;
+}
+
+.text-head {
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+.head-img {
+    position: relative;
+    padding: 0px;
+    height: 200px;
+    left: 0px;
+    width: 100%;
 }
 
 .avatar {
-    position: absolute;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
 }
 
-.mainInfo {
-    padding-left: 310px;
+h1 {
+    text-align: center;
 }
 
 html, body {
@@ -21,7 +40,8 @@ body {
 }
 
 section {
-    flex: 1 0 auto;
+    display: flex;
+    flex: 1 0;
 }
 
 ul {
@@ -31,15 +51,35 @@ ul {
 .footer {
     display: flex;
     justify-content: space-around;
-    color: white;
-    background-color: black;
+    color: black;
     flex-shrink: 0;
+    background-color: #00ffff;
+    height: 100px;
 }
 
 a:hover {
     color: red;
 }
 
+.link {
+  color: black;
+;
+}
+
 .link:hover {
-    color: white;
+    color: red;
+}
+
+.fa {
+    margin-top: 30px;
+    font-size: 30px;
+    letter-spacing: 0.5em;
+}
+
+.fa:hover{
+    opacity: .3;
+}
+
+.year {
+    margin-top: 30px;
 }
