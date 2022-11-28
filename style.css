@@ -1,22 +1,12 @@
 header {
+    display: block;
     background-image: url('img-head.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 25%;
-    height: 170px;
+    bac
 }
 
 .text-head {
     padding-left: 30px;
-    padding-top: 70px;
-}
-
-.head-img {
-    position: relative;
-    padding: 0px;
-    height: 200px;
-    left: 0px;
-    width: 100%;
+    padding-top: 50px;
 }
 
 .avatar {
@@ -39,13 +29,19 @@ body {
     flex-direction: column;
 }
 
-section {
+.main {
     display: flex;
     flex: 1 0;
 }
 
-ul {
-    list-style-type: none;
+.purpose {
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+}
+
+.spec-h3 {
+    color: ;
 }
 
 .footer {
@@ -54,7 +50,7 @@ ul {
     color: black;
     flex-shrink: 0;
     background-color: #00ffff;
-    height: 100px;
+    height: 80px;
 }
 
 a:hover {
