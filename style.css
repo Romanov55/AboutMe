@@ -1,7 +1,6 @@
 header {
     display: block;
     background-image: url('img-head.jpg');
-    bac
 }
 
 .text-head {
@@ -38,10 +37,6 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center
-}
-
-.spec-h3 {
-    color: ;
 }
 
 .footer {
