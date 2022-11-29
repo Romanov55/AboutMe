@@ -1,7 +1,16 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
 header {
     display: block;
     background-image: url('img-head.jpg');
-    height: 150px;
+    padding: 15px 0;
+    height: 120px;
+    width: 100%;
 }
 
 .text-head {
@@ -19,11 +28,6 @@ h1 {
     text-align: center;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 .main {
     display: flex;
     flex: 1 0;
@@ -32,8 +36,29 @@ html, body {
 .purpose {
     display: flex;
     justify-content: space-around;
-
+    text-align: center;
     text-align: center
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-item1 {
+    flex-shrink: 1;
+    width: 350px;
+}
+
+.flex-item2 {
+    flex-shrink: 1;
+    width: 350px;
+}
+
+.flex-item3 {
+    flex-shrink: 1;
+    width: 350px;
 }
 
 .footer {
