@@ -19,74 +19,95 @@ html, body {
     color: #333;
 }
 
-.header_fixed {
-    background: linear-gradient(#00bfff, blue);
-    display: flex;
-}
-
-#fa-computer {
-    padding: 30px 0px 30px 70px;
-    color: white;
-}
-
-.hello-name {
-    margin-left: 470px;
-    line-height: 20px;
-}
-
-.text-head {
-    padding-left: 40px;
-    padding-top: 50px;
-    
-}
-
-.avatar {
-    padding: 30px 0px 0px 200px;
-    width: 350px;
-    height: 350px;
-}
-
-.main-text {
-    margin-right: 120px;
-    padding: 30px;
-    text-align: right;
-}
-
-.hello {
-    font-size: 50px;
-    font-weight: 300;
-}
-
-.name {
-    font-size: 80px;
-}
-
-.number {
-    padding: 0px;
-    margin: 40px 0px 0px 0px;
-    font-size: 80px;
-}
-
-.main-info {
-    display: flex;
-    justify-content: right;
-    text-align: center;
-}
-
-.info-container {
-    width: 300px;
-    line-height: 30px;
-    padding-left: 40px
-}
-
-.info-number {
-    font-size: 30px;
+.contact {
+    display: inline-block;
+    position: fixed;
+    left: 48%;
 }
 
 .main {
-    display: flex;
-    flex: 1 0;
+    text-align: right;
+    margin: 30px 100px;
 }
+
+    #avatar {
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        left: 30px;
+        top: 50px;
+
+    }
+
+    .hello-name {
+        margin-left: 470px;
+        line-height: 20px;
+    }
+
+        #hello {
+            font-size: 70px;
+            font-weight: 300;
+        }
+
+        #name {
+            font-size: 100px;
+        }
+
+    .achievements {
+        display: flex;
+        justify-content: right;
+        text-align: center;
+    }
+
+        .info-container {
+            width: 300px;
+            line-height: 30px;
+            padding-left: 40px
+        }
+
+            .number {
+                padding: 0px;
+                margin: 40px 0px 0px 0px;
+                font-size: 80px;
+            }
+
+            .info-number {
+                font-size: 30px;
+            }
+
+.list {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    padding: 20px 300px
+}
+
+    #hack-img {
+        height: 300px;
+        width: 300px;
+        margin-right: 350px;
+    }
+
+
+    .info-list {
+        padding-top: 60px;
+    }
+
+    .description {
+        width: 300px;
+    }
+
+    #worker-img {
+        height: 300px;
+        width: 300px;
+        margin-left: 350px;
+    }
+
+    #study-img {
+        height: 300px;
+        width: 300px;
+        margin-right: 350px;
+    }
 
 .purpose {
     display: flex;
@@ -94,40 +115,43 @@ html, body {
     text-align: center;
 }
 
-.fa-solid {
-    font-size: 40px;
-    color: #000080;
-}
+    .flex-item {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#4b7be2, #00ffff);
+        color: black;
+        margin: 30px 10px;
+        padding: 40px 20px;
+    }
 
-#hexlet {
-    width: 60px;
-    height: 25px;
-}
+        .fa-solid {
+            font-size: 40px;
+            color: #000080;
+        }
 
-.flex-item {
+        #flex-item1 {
+            width: 400px;
+        }
+
+        #flex-item2 {
+            width: 400px;
+        }
+
+        #flex-item3 {
+            width: 400px;
+        }
+
+.location {
     display: flex;
-    flex-direction: column;
-    background: linear-gradient(#00bfff, #e6e6fa);
-    color: black;
-    margin: 30px 10px;
-    padding: 40px 20px;
+    justify-content: center;
 }
 
-.flex-item1 {
-    flex-shrink: 1;
-    width: 400px;
-}
-
-.flex-item2 {
-    flex-shrink: 1;
-    width: 400px;
-}
-
-.flex-item3 {
-    flex-shrink: 1;
-    width: 400px;
-}
-
+    #map {
+        text-align: center;
+        width: 500px;
+        padding: 120px 50px;
+        
+    }
 .footer {
     display: flex;
     justify-content: space-around;
@@ -137,29 +161,21 @@ html, body {
     height: 80px;
 }
 
+    #year {
+        margin-top: 30px;
+    }
+
+    .fa {
+        margin-top: 30px;
+        font-size: 30px;
+        letter-spacing: 0.5em;
+    }
+
+    .fa:hover{
+        opacity: 0.3;
+    }
+
 a:hover {
     color: red;
 }
 
-.link {
-  color: black;
-;
-}
-
-.link:hover {
-    color: red;
-}
-
-.fa {
-    margin-top: 30px;
-    font-size: 30px;
-    letter-spacing: 0.5em;
-}
-
-.fa:hover{
-    opacity: .3;
-}
-
-.year {
-    margin-top: 30px;
-}
