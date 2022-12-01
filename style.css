@@ -1,35 +1,86 @@
+@font-face {
+  font-weight: normal;
+  font-family: 'Futura-Bold';
+  src: url("../fonts/Futura/futura-pt-demi.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Futura-Regular';
+  src: url("../fonts/Futura/futura-pt-cond-book-oblique.ttf");
+}
+
+
 html, body {
     display: flex;
     flex-direction: column;
-    height: 100%;
     margin: 0;
+    font-family: 'Futura-Bold', sans-serif;
+    color: #333;
 }
 
-header {
-    display: block;
-    background-image: url('img-head.jpg');
-    padding: 15px 0;
-    height: 120px;
-    width: 100%;
+.header_fixed {
+    background: linear-gradient(#00bfff, blue);
+    display: flex;
+}
+
+#fa-computer {
+    padding: 30px 0px 30px 70px;
+    color: white;
+}
+
+.hello-name {
+    margin-left: 470px;
+    line-height: 20px;
 }
 
 .text-head {
-    padding-left: 30px;
+    padding-left: 40px;
     padding-top: 50px;
+    
 }
 
 .avatar {
-    padding: 20px;
+    padding: 30px 0px 0px 200px;
     width: 350px;
     height: 350px;
 }
 
 .main-text {
-    padding: 10px;
+    margin-right: 120px;
+    padding: 30px;
+    text-align: right;
 }
 
-h1 {
+.hello {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 80px;
+}
+
+.number {
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
+    font-size: 80px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: right;
     text-align: center;
+}
+
+.info-container {
+    width: 300px;
+    line-height: 30px;
+    padding-left: 40px
+}
+
+.info-number {
+    font-size: 30px;
 }
 
 .main {
@@ -41,28 +92,40 @@ h1 {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    text-align: center
+}
+
+.fa-solid {
+    font-size: 40px;
+    color: #000080;
+}
+
+#hexlet {
+    width: 60px;
+    height: 25px;
 }
 
 .flex-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background: linear-gradient(#00bfff, #e6e6fa);
+    color: black;
+    margin: 30px 10px;
+    padding: 40px 20px;
 }
 
 .flex-item1 {
     flex-shrink: 1;
-    width: 350px;
+    width: 400px;
 }
 
 .flex-item2 {
     flex-shrink: 1;
-    width: 350px;
+    width: 400px;
 }
 
 .flex-item3 {
     flex-shrink: 1;
-    width: 350px;
+    width: 400px;
 }
 
 .footer {
@@ -85,11 +148,6 @@ a:hover {
 
 .link:hover {
     color: red;
-}
-
-.fa-solid {
-    font-size: 50px;
-    color: green;
 }
 
 .fa {
