@@ -17,7 +17,7 @@ html, body {
     margin: 0;
     font-family: 'Futura-Bold', sans-serif;
     color: #333;
-    width: 100%;
+    width: 100vw;
 }
 
 .contact {
@@ -39,7 +39,7 @@ html, body {
 
     .hello-name {
         line-height: 20px;
-        text-align: right
+        text-align: right;
     }
 
         #hello {
@@ -76,7 +76,7 @@ html, body {
     display: flex;
     justify-content: right;
     text-align: center;
-    padding: 20px 300px
+    padding: 20px 300px;
 }
 
     #hack-img {
@@ -145,7 +145,7 @@ html, body {
 
     #map {
         text-align: center;
-        width: 500px;
+        width: 40%vw;
         padding: 120px 50px;
         
     }
