@@ -26,21 +26,19 @@ html, body {
 }
 
 .main {
-    text-align: right;
+    display: flex;
+    justify-content: center;
     margin: 30px 100px;
 }
 
     #avatar {
-        position: absolute;
         width: 25%;
         height: 50%;
-        left: 30px;
-        top: 50px;
-
     }
 
     .hello-name {
         line-height: 20px;
+        text-align: right
     }
 
         #hello {
