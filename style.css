@@ -32,21 +32,19 @@ html, body {
 
     #avatar {
         position: absolute;
-        width: 450px;
-        height: 450px;
+        width: 25%;
+        height: 50%;
         left: 30px;
         top: 50px;
 
     }
 
     .hello-name {
-        margin-left: 470px;
         line-height: 20px;
     }
 
         #hello {
             font-size: 70px;
-            font-weight: 300;
         }
 
         #name {
