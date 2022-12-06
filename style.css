@@ -51,7 +51,6 @@ html, body {
 
     .achievements {
         display: flex;
-        justify-content: right;
         text-align: center;
     }
 
@@ -73,9 +72,9 @@ html, body {
 
 .list {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     text-align: center;
-    padding: 20px 300px;
+    padding: 20px;
 }
 
     #hack-img {
