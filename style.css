@@ -21,15 +21,18 @@ html, body {
 }
 
 .contacts {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    left: 48%;
+    top: 30%;
+    right: 10px;
 }
 
 .main {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    padding: 30px;
+    background: linear-gradient(#daecaf, #a5e2b7);
 }
 
     #avatar {
@@ -39,15 +42,11 @@ html, body {
 
     .hello-name {
         line-height: 20px;
-        text-align: right;
+        text-align: center;
     }
 
-        #hello {
-            font-size: 70px;
-        }
-
         #name {
-            font-size: 100px;
+            font-size: 50px;
         }
 
     .achievements {
@@ -65,11 +64,11 @@ html, body {
             .number {
                 padding: 0px;
                 margin: 40px 0px 0px 0px;
-                font-size: 80px;
+                font-size: 60px;
             }
 
             .info-number {
-                font-size: 30px;
+                font-size: 20px;
             }
 
 .list {
@@ -82,7 +81,7 @@ html, body {
     #hack-img {
         height: 300px;
         width: 300px;
-        margin-right: 350px;
+        margin-right: 20vw;
     }
 
 
@@ -92,32 +91,32 @@ html, body {
 
     .description {
         width: 300px;
+        font-size: 25px;
     }
 
     #worker-img {
         height: 300px;
         width: 300px;
-        margin-left: 350px;
+        margin-left: 20vw;
     }
 
     #study-img {
         height: 300px;
         width: 300px;
-        margin-right: 350px;
+        margin-right: 20vw;
     }
 
 .purpose {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin: 0px 40px;
 }
 
     .flex-item {
         display: flex;
         flex-direction: column;
-        background: linear-gradient(#4b7be2, #00ffff);
-        color: black;
-        padding: 40px 20px;
+        padding: 40px 10px;
         width: 100%;
     }
 
@@ -128,24 +127,30 @@ html, body {
 
         #flex-item1 {
             width: 30%;
+            background: linear-gradient(#4b7be2, #00ffff);
         }
 
         #flex-item2 {
             width: 30%;
+            background: linear-gradient(#4b7be2, #00ffff);
         }
 
         #flex-item3 {
             width: 30%;
+            background: linear-gradient(#4b7be2, #00ffff);
         }
 
 .location {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 30px;
     padding: 30px;
 }
 
+    #map {
+        margin-top: 100px;
+        width: 30%;
+    }
 .footer {
     display: flex;
     justify-content: space-around;
