@@ -12,7 +12,6 @@
 
 
 html, body {
-    height: device-width;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -21,8 +20,6 @@ html, body {
 }
 
 .contacts {
-    width: device-width;
-    height: device-width;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -31,8 +28,6 @@ html, body {
 }
 
 .main {
-    width: device-width;
-    height: device-width;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -75,8 +70,6 @@ html, body {
             }
 
 .list {
-    width: device-width;
-    height: device-width;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -157,8 +150,6 @@ html, body {
         width: 30%;
     }
 .footer {
-    width: device-width;
-    height: device-width;
     display: flex;
     justify-content: space-around;
     color: black;
