@@ -177,24 +177,23 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    .body {
-        width: 1000px;
-    }
     .main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
+
+    #name {
+        line-height: 3rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    .body {
-        width: 800px;
-    }
     .list {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .description {
@@ -203,7 +202,8 @@ a:hover {
     }
 
     .info-list {
-        padding: 10vw;
+        min-width: 100%;
+        padding: 20px 0 80px;
         justify-content: center;
     }
 
@@ -213,16 +213,13 @@ a:hover {
     }
 
 
-    .info-list {
-        min-width: 80vw;
-    }
-
     .description {
         text-align: center;
         min-width: 100%;
     }
 
     #worker-img {
+        padding-top: 70px;
         max-height: 40vw;
         max-width: 40vw;
     }
