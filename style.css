@@ -12,17 +12,18 @@
 
 
 html, body {
-    width: device-width;
+    min-width: 100vw;
     height: device-width;
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: 'Futura-Bold', sans-serif;
     color: #333;
-    width: 100vw;
 }
 
 .contacts {
+    width: device-width;
+    height: device-width;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -31,6 +32,8 @@ html, body {
 }
 
 .main {
+    width: device-width;
+    height: device-width;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -73,6 +76,8 @@ html, body {
             }
 
 .list {
+    width: device-width;
+    height: device-width;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -107,6 +112,8 @@ html, body {
     }
 
 .purpose {
+    width: device-width;
+    height: device-width;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -152,6 +159,8 @@ html, body {
         width: 30%;
     }
 .footer {
+    width: device-width;
+    height: device-width;
     display: flex;
     justify-content: space-around;
     color: black;
@@ -181,6 +190,8 @@ a:hover {
 @media screen and (max-width: 1000px) {
     body.contentblock {width: 1000px;}
     .main {
+        width: device-width;
+        height: device-width;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -189,8 +200,10 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-    div.contentblock {width: 800px;}
+    body.contentblock {width: 800px;}
     .list {
+        width: device-width;
+        height: device-width;
         display: flex;
         flex-direction: column;
     }
