@@ -179,6 +179,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+    div.contentblock {width: 1000px;}
     .main {
         display: flex;
         flex-direction: column;
@@ -188,6 +189,7 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
+    div.contentblock {width: 800px;}
     .list {
         display: flex;
         flex-direction: column;
