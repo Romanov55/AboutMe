@@ -12,12 +12,13 @@
 
 
 html, body {
+    width: device-width;
+    height: device-width;
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: 'Futura-Bold', sans-serif;
     color: #333;
-    width: 100vw;
 }
 
 .contacts {
@@ -36,8 +37,8 @@ html, body {
 }
 
     #avatar {
-        width: 300px;
-        height: 300px;
+        height: 25vw;
+        width: 25vw;
     }
 
     .hello-name {
@@ -71,38 +72,37 @@ html, body {
             }
 
 .list {
+    padding: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    width: 100%;
 }
 
     #hack-img {
-        height: 300px;
-        width: 300px;
-        margin-right: 20vw;
+        max-height: 25vw;
+        max-width: 25vw;
     }
 
 
     .info-list {
-        padding-top: 60px;
+        padding: 7% 6%;
+        max-height: 25vw;
+        max-width: 25vw;
     }
 
     .description {
-        width: 300px;
-        font-size: 25px;
+        font-size: 1em;
     }
 
     #worker-img {
-        height: 300px;
-        width: 300px;
-        margin-left: 20vw;
+        max-height: 25vw;
+        max-width: 25vw;
     }
 
     #study-img {
-        height: 300px;
-        width: 300px;
-        margin-right: 20vw;
+        max-height: 25vw;
+        max-width: 25vw;
     }
 
 .purpose {
@@ -165,7 +165,7 @@ html, body {
 
     .fa {
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 2em;
         letter-spacing: 0.5em;
     }
 
@@ -177,3 +177,65 @@ a:hover {
     color: red;
 }
 
+@media screen and (max-width: 1000px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        display: flex;
+        text-align: center;
+    }
+
+    .info-list {
+        padding: 10vw;
+        justify-content: center;
+    }
+
+    #hack-img {
+        max-height: 40vw;
+        max-width: 40vw;
+    }
+
+
+    .info-list {
+        min-width: 80vw;
+    }
+
+    .description {
+        text-align: center;
+        min-width: 100%;
+    }
+
+    #worker-img {
+        max-height: 40vw;
+        max-width: 40vw;
+    }
+
+    #study-img {
+        max-height: 40vw;
+        max-width: 40vw;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #map {
+        min-width: 100%;
+        width: 70%;
+    }
+}
