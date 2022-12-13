@@ -179,7 +179,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    div.contentblock {width: 1000px;}
+    body.contentblock {width: 1000px;}
     .main {
         display: flex;
         flex-direction: column;
