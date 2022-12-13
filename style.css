@@ -12,7 +12,6 @@
 
 
 html, body {
-    min-width: 100vw;
     height: device-width;
     display: flex;
     flex-direction: column;
