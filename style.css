@@ -178,8 +178,13 @@ a:hover {
 
 @media screen and (max-width: 1000px) {
     .hello {
-        max-width: 80%;
-        padding: 10px 10%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .info-container {
+        margin: 0;
+        padding: 0;
     }
 
     #avatar {
@@ -305,7 +310,21 @@ a:hover {
         font-size: small;
     }
 
-    .info-list {
-        margin: 0 0 50px;
+    .info-container {
+        min-height: 90%;
+        margin: 10px 5%;
+        padding: 0;
+    }
+
+    .achievements {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hello {
+        padding: 0;
+        margin: 0;
     }
 }
