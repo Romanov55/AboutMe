@@ -177,6 +177,16 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+    .hello {
+        max-width: 80%;
+        padding: 10px 10%;
+    }
+
+    #avatar {
+        min-width: 35%;
+        padding: 0 32.5%;
+    }
+
     .main {
         display: flex;
         flex-direction: column;
@@ -194,7 +204,8 @@ a:hover {
     }
 
     #map-loc {
-        padding: 0 10%;
+        margin: 0;
+        padding: 20px 10%;
         min-width: 80%;
     }
 
@@ -207,6 +218,30 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
+    #name {
+        margin: 5px;
+        font-size: 40px;
+    }
+
+    .number {
+        font-size: 40px;
+        margin: 0;
+    }
+    .info-number {
+        font-size: 15px;
+    }
+
+    
+    .purpose {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-item {
+        min-width: 90%;
+        margin: 10px 5%;
+    }
+
     .list {
         display: flex;
         flex-direction: column;
@@ -219,8 +254,8 @@ a:hover {
     }
 
     .info-list {
-        min-width: 100%;
-        padding: 20px 0 80px;
+        min-width: 90%;
+        padding: 20px 5% 10px 5%;
         justify-content: center;
     }
 
@@ -236,7 +271,6 @@ a:hover {
     }
 
     #worker-img {
-        padding-top: 70px;
         max-height: 40vw;
         max-width: 40vw;
     }
@@ -251,9 +285,19 @@ a:hover {
         flex-direction: column;
         justify-content: space-around;
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
     iframe {
         height: 400px;
+        margin: 0;
+        min-width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #worker-img {
+        margin-top: 70px;
     }
 }
