@@ -41,6 +41,7 @@ html, body {
     .hello {
         padding: 70px;
         font-size: 1vw;
+        animation: byBottom 1s ease both;
     }
 
     #avatar {
@@ -165,30 +166,8 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    .hello {
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .info-container {
-        margin: 0;
-        padding: 0;
-    }
-
     #avatar {
-        min-width: 35%;
-        padding: 0 32.5%;
-    }
-
-    .main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #name {
-        line-height: 3rem;
+        left: 2%;
     }
 
     .location {
@@ -211,20 +190,14 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-    #name {
-        margin: 5px;
-        font-size: 40px;
+    #avatar {
+        left: -15%;
     }
 
-    .number {
-        font-size: 40px;
-        margin: 0;
+    .hello {
+        line-height: 5px;
+        padding-top: 35vh;
     }
-    .info-number {
-        font-size: 15px;
-    }
-
-    
     .purpose {
         display: flex;
         flex-direction: column;
@@ -298,21 +271,27 @@ a:hover {
         font-size: small;
     }
 
-    .info-container {
-        min-height: 90%;
-        margin: 10px 5%;
-        padding: 0;
+    .hello {
+        padding-top: 55vh;
+        padding-right: 5%;
+    }
+    
+    #avatar {
+        left: -30%;
     }
 
-    .achievements {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
+    .contacts {
+        top: 15vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #avatar {
+        left: -40%;
     }
 
     .hello {
-        padding: 0;
-        margin: 0;
+        padding-top: 63vh;
+        font-size: 0.8vw;
     }
 }
